@@ -1,0 +1,22 @@
+.banner_img {
+    width: 100%;
+}
+
+.banner_img {
+    width: 550px;
+    margin: 40px;
+    border-radius: 20px;
+}
+.panorama {
+    display: block;
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/page6.css">
+    <title>клиенты</title>
+
+    <div id="wrapper">
+        <header>
+            <a id="logo" href="index.html"><span class="pink">Час</span><i>пик</i></a>
+            <nav class="mainnav">
+                <ul>
+                    <li><a href="page1.html">услуги</a></li>
+                    <li><a href="page2.html">о нас</a></li>
+                    <li><a href="page3.html">контакты</a></li>
+                    <li><a href="page4.html">клиенты</a></li>
+                </ul>
+        </header>
+    </div>
+
+</head>
+
+<main>
+
+    <div class="form-wrapper">
+        <form class="contact-form" action="/send" method="POST">
+            <div class="form-group">
+                <label for="topic">Тема</label>
+                <select name="theme">
+                    <option value="1">Заказать услугу</option>
+                    <option value="2">Оставить отзыв/замечание</option>
+                    <option value="3">Предложить сотрудничество</option>
+                    <option value="4">Другое</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Имя</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="form-group">
+                <label>E-mail</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label>Текст сообщения</label>
+                <textarea name="message" required></textarea>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+</main>
+
+<body>
+    <footer>
+
+        <div class="text-left"><a href="#" class="write-link">НАПИСАТЬ НАМ &#9650;</a></div>
+        <div class="text-center">&copy; НОВАЯ КОМПАНИЯ</div>
+
+        <div class="footer__icons">
+            <img class="footer__img" src="../content/img/mailru.png" alt="">
+            <img class="footer__img" src="../content/img/ok.png" alt="">
+            <img class="footer__img" src="../content/img/vk.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>
